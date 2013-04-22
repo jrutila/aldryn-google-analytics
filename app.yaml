@@ -1,0 +1,13 @@
+name: Google Analytics
+package-name: cmscloud-google-analytics
+url: https://github.com/divio/cmscloud-google-analytics
+author:
+  name: Divio AG
+  url: https://www.divio.ch
+installed-apps:
+  - cmscloud_google_analytics
+version: 0.0.5
+description: Attach Google Analytics tracking script to the site
+license:
+  name: BSD
+  text: !literal-include LICENSE.txt
