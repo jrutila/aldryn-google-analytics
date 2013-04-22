@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from setuptools import setup
-from cmscloud_google_analytics import __version__
+from aldryn_google_analytics import __version__
 
 
 CLASSIFIERS = [
@@ -19,13 +19,13 @@ CLASSIFIERS = [
 ]
 
 setup(
-    name='cmscloud-google-analytics',
+    name='aldryn-google-analytics',
     version=__version__,
     description='Adds Google Analytics support for django CMS cloud',
     author='Divio AG',
     author_email='info@divio.ch',
-    url='https://github.com/divio/cmscloud-google-analytics',
-    packages=['cmscloud_google_analytics'],
+    url='https://github.com/aldryn/aldryn-google-analytics',
+    packages=['aldryn_google_analytics'],
     license='LICENSE.txt',
     platforms=['OS Independent'],
     classifiers=CLASSIFIERS,

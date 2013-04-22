@@ -1,12 +1,12 @@
 name: Google Analytics
-package-name: cmscloud-google-analytics
-url: https://github.com/divio/cmscloud-google-analytics
+package-name: aldryn-google-analytics
+url: https://github.com/aldryn/aldryn-google-analytics
 author:
   name: Divio AG
   url: https://www.divio.ch
 installed-apps:
-  - cmscloud_google_analytics
-version: 0.0.5
+  - aldryn_google_analytics
+version: 0.0.6
 description: Attach Google Analytics tracking script to the site
 license:
   name: BSD
