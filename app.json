@@ -1,7 +1,7 @@
 {
 	"name": "Google Analytics",
 	"description": "Attaches Google Analytics tracking script to the site.",
-	"version": "0.0.12a1.dev11",
+	"version": "0.0.12",
 	"url": "https://github.com/aldryn/aldryn-google-analytics",
 	"package-name": "aldryn-google-analytics",
 	"installed-apps": [
