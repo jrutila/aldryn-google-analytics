@@ -37,7 +37,7 @@ def get_google_analytics_script(request):
         'ga_individual': '',
     }
     if track_individuals and not request.user.is_anonymous():
-        context['ga_individual'] = """\n  ga('set', '&uid', %s);'""" % request.user.id
+        context['ga_individual'] = """\n  ga('set', '&uid', %s);""" % request.user.id
     if use_universal_analytics:
         template = UNIVERSAL_ANALYTICS_SCRIPT
     else:
