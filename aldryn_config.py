@@ -31,4 +31,6 @@ class Form(forms.BaseForm):
         settings['GOOGLE_ANALYTICS_ID'] = data['google_analytics_id']
         settings['GOOGLE_ANALYTICS_USE_UNIVERSAL'] = data['use_universal_analytics']
         settings['GOOGLE_ANALYTICS_TRACK_INDIVIDUALS'] = data['track_individuals']
+
+        # aldryn-snake is configured by aldryn-django-cms
         return settings
