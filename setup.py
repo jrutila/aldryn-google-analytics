@@ -26,6 +26,9 @@ setup(
     author_email='info@divio.ch',
     url='https://github.com/aldryn/aldryn-google-analytics',
     packages=['aldryn_google_analytics'],
+    install_requires=[
+        'aldryn-snake',
+    ],
     license='LICENSE.txt',
     platforms=['OS Independent'],
     classifiers=CLASSIFIERS,

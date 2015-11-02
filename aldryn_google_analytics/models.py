@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-from cmscloud.template_api import registry
+from aldryn_snake.template_api import registry
 from django.conf import settings
+
 
 GOOGLE_ANALYTICS_SCRIPT = """<script type="text/javascript">
   var _gaq = _gaq || [];
