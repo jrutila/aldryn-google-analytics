@@ -1,16 +1,4 @@
 {
-	"name": "Aldryn Google Analytics",
-	"description": "Attaches Google Analytics tracking script to the site.",
-	"url": "https://github.com/aldryn/aldryn-google-analytics",
-	"package-name": "aldryn-google-analytics",
-	"installed-apps": [
-		"aldryn_google_analytics"
-	],
-	"author": {
-		"name": "Divio AG",
-		"url": "https://www.divio.ch"
-	},
-	"license": {
-		"name": "BSD"
-	}
+    "package-name": "aldryn-google-analytics",
+    "installed-apps": []
 }

@@ -4,20 +4,6 @@ from setuptools import setup
 from aldryn_google_analytics import __version__
 
 
-CLASSIFIERS = [
-    'Development Status :: 2 - Pre-Alpha',
-    'Environment :: Web Environment',
-    'Framework :: Django',
-    'Intended Audience :: Developers',
-    'License :: OSI Approved :: BSD License',
-    'Operating System :: OS Independent',
-    'Programming Language :: Python',
-    'Topic :: Communications',
-    'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
-    'Programming Language :: Python :: 2.6',
-    'Programming Language :: Python :: 2.7',
-]
-
 setup(
     name='aldryn-google-analytics',
     version=__version__,
@@ -29,9 +15,7 @@ setup(
     install_requires=[
         'aldryn-snake',
     ],
-    license='LICENSE.txt',
-    platforms=['OS Independent'],
-    classifiers=CLASSIFIERS,
+    license=open('LICENSE.txt', 'r').read(),
     include_package_data=True,
     zip_safe=False
 )
