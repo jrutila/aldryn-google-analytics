@@ -13,7 +13,6 @@ setup(
     url='https://github.com/aldryn/aldryn-google-analytics',
     packages=['aldryn_google_analytics'],
     install_requires=[
-        'Django>=1.10',
         'aldryn-snake',
     ],
     license=open('LICENSE.txt', 'r').read(),
